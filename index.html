@@ -13,7 +13,7 @@
     />
     <meta name="author" content="Helena Park" />
     <meta property="og:title" content="Helena Park's Portfolio" />
-    <meta property="og:image" content="assets/images/helena.jpg" />
+    <meta property="og:image" content="assets/images/helena.png" />
     <meta
       property="og:description"
       content="Welcome to the Helena Park's Portfolio"
@@ -22,10 +22,8 @@
     <title>Helena's Portfolio</title>
 
     <!-- font icons -->
-    <link
-      rel="stylesheet"
-      href="assets/vendors/themify-icons/css/themify-icons.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
     <!-- Bootstrap + custom main styles -->
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="icon" href="assets/images/favicon.ico" />
@@ -71,26 +69,28 @@
         </h1>
         <p class="header-subtitle">FRONTEND DEVELOPER</p>
 
-        <button class="btn">
-          <a href="mailto:phg5590@gmail.com" target="_blank">
-            <img src="assets/images/email.png" />
-          </a>
-        </button>
-        <button class="btn">
-          <a href="tel:437-669-5590" target="_blank">
-            <img src="assets/images/phone-call.png" />
-          </a>
-        </button>
-        <button class="btn">
-          <a href="https://www.linkedin.com/in/yolophg" target="_blank">
-            <img src="assets/images/linkedin.png" />
-          </a>
-        </button>
-        <button class="btn">
-          <a href="https://github.com/yolophg" target="_blank">
-            <img src="assets/images/github.png" />
-          </a>
-        </button>
+        <div class="social-btns">
+          <button class="btn social-btn">
+            <a href="mailto:phg5590@gmail.com" target="_blank">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+          </button>
+          <button class="btn social-btn">
+            <a href="tel:437-669-5590" target="_blank">
+              <i class="fa-solid fa-phone"></i>
+            </a>
+          </button>
+          <button class="btn social-btn">
+            <a href="https://www.linkedin.com/in/yolophg" target="_blank">
+              <i class="fa-brands fa-linkedin"></i>
+              </a>
+          </button>
+          <button class="btn social-btn">
+            <a href="https://github.com/yolophg" target="_blank">
+            <i class="fa-brands fa-github"></i>
+            </a>
+          </button>
+        </div>
       </div>
     </header>
 
@@ -100,7 +100,7 @@
         <div class="about">
           <div class="about-img-holder">
             <img
-              src="assets/images/helena.jpg"
+              src="assets/images/helena.png"
               class="about-img"
               alt="Helena Park"
             />
@@ -132,7 +132,7 @@
               effectively with colleagues from various fields, including
               designers, planners, back-end developers, and QA testers.
             </p>
-            <a href="assets/Helena Park.pdf" download>
+            <a href="assets/HelenaPark.pdf" download>
               <button class="btn btn-primary">Download CV</button>
             </a>
           </div>
@@ -146,8 +146,46 @@
         <p class="section-subtitle">What I Did ?</p>
         <h6 class="section-title mb-6">Experiences</h6>
         <!-- row -->
-        <div class="row">
-          <div class="col-md-4">
+        <div class="row portfolio-row">
+          <div class="col-md-4 portfolio-box">
+            <a
+              target="_blank"
+              href="https://7mih.tv/"
+              class="portfolio-card"
+            >
+              <img
+                src="assets/images/folio-4.png"
+                class="portfolio-card-img"
+                alt="7 Minutes In Hell Web Service"
+              />
+              <span class="portfolio-card-overlay">
+                <span class="portfolio-card-caption">
+                  <h4>Frontend Development</h4>
+                  <p class="font-weight-normal">Web Service</p>
+                </span>
+              </span>
+            </a>
+          </div>
+          <div class="col-md-4 portfolio-box">
+            <a
+              target="_blank"
+              href="https://gaggle.fun/"
+              class="portfolio-card"
+            >
+              <img
+                src="assets/images/folio-5.png"
+                class="portfolio-card-img"
+                alt="Gaggle Studios Web Service"
+              />
+              <span class="portfolio-card-overlay">
+                <span class="portfolio-card-caption">
+                  <h4>Frontend Development</h4>
+                  <p class="font-weight-normal">Web Service</p>
+                </span>
+              </span>
+            </a>
+          </div>
+          <div class="col-md-4 portfolio-box">
             <a
               target="_blank"
               href="https://apps.apple.com/kr/app/%EB%AF%BC%EB%B3%91%EC%B2%A0%EC%9C%A0%ED%8F%B0-%EC%A0%84%ED%99%94%EC%98%81%EC%96%B4-%ED%99%94%EC%83%81%EC%98%81%EC%96%B4-1%EC%9C%84/id1507100534"
@@ -166,7 +204,26 @@
               </span>
             </a>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 portfolio-box">
+            <a
+              target="_blank"
+              href="https://app.uphone.co.kr/"
+              class="portfolio-card"
+            >
+              <img
+                src="assets/images/folio-6.png"
+                class="portfolio-card-img"
+                alt="Uphone Web Service"
+              />
+              <span class="portfolio-card-overlay">
+                <span class="portfolio-card-caption">
+                  <h4>Frontend Development</h4>
+                  <p class="font-weight-normal">Web Service</p>
+                </span>
+              </span>
+            </a>
+          </div>
+          <div class="col-md-4 portfolio-box">
             <a
               target="_blank"
               href="https://www.tutorhive.kr/"
@@ -186,7 +243,7 @@
               </span>
             </a>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 portfolio-box">
             <a
               target="_blank"
               href="https://mangoi.co.kr/"
@@ -246,13 +303,13 @@
         </p>
         <div class="social-links text-right m-auto ml-sm-auto">
           <a href="mailto:phg5590@gmail.com" target="_blank" class="link"
-            ><i class="ti-google"></i
+            ><i class="fa-solid fa-envelope"></i
           ></a>
           <a
             href="https://www.linkedin.com/in/yolophg"
             target="_blank"
             class="link"
-            ><i class="ti-linkedin"></i
+            ><i class="fa-brands fa-linkedin"></i
           ></a>
         </div>
       </footer>
